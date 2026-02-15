@@ -19,7 +19,7 @@ O **ReceptivoPro** é um sistema de back-office desenvolvido para agências de t
 1. Certifique-se de ter o **JDK 21** e o **Maven** instalados.
 2. Clone o repositório:
    ```bash
-   git clone [https://github.com/seu-usuario/receptivo-pro.git](https://github.com/seu-usuario/receptivo-pro.git)
+   git clone https://github.com/guiPinheiroAfK/Receptivo-VialeSOS.git
 3. **Execução:**
    ```bash
    mvn clean install
