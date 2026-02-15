@@ -3,7 +3,7 @@
 O **ReceptivoPro** é um sistema de back-office desenvolvido para agências de turismo receptivo que buscam automatizar a operação de campo. O sistema centraliza reservas, organiza a logística de passageiros e gera manifestos de transporte de forma inteligente.
 
 ## 🛠️ Tecnologias Principais
-* **Backend:** Java 17 + Spring Boot 3
+* **Backend:** Java 21 + Spring Boot 3.3+
 * **Persistência:** Spring Data JPA + PostgreSQL
 * **Segurança:** Spring Security & JWT
 * **Documentação:** Swagger/OpenAPI
@@ -16,7 +16,11 @@ O **ReceptivoPro** é um sistema de back-office desenvolvido para agências de t
 - **Módulo Financeiro:** Cálculo automático de comissões e faturamento de agências parceiras.
 
 ## 🚀 Como Executar o Projeto
-1. Certifique-se de ter o **JDK 17** e o **Maven** instalados.
+1. Certifique-se de ter o **JDK 21** e o **Maven** instalados.
 2. Clone o repositório:
    ```bash
    git clone [https://github.com/seu-usuario/receptivo-pro.git](https://github.com/seu-usuario/receptivo-pro.git)
+3. **Execução:**
+   ```bash
+   mvn clean install
+   mvn spring-boot:run
